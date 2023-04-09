@@ -1,0 +1,165 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Sora', sans-serif;
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    background: url("./assest/banner.jpeg");
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+.shap{
+    width: 100%;
+    height: 100vh;
+    z-index: 2  ;
+    position: absolute;
+    border-top: 688px solid #174bc4cd;
+    border-right: 500px solid transparent;
+    transform: translateX(-900px);
+}
+
+.mianWrper{
+    color: #ddd;
+    z-index: 2;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.header{
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 50px;
+    align-items: center;
+    padding: 10px 0;
+}
+.logo{
+    width: 200px;
+
+}
+
+.logoandber{
+    display: flex;
+    align-items: center;
+    grid-gap: 15px;
+}
+.bersnabder{
+    display: none;
+}
+.body{
+    height: 92%;
+    margin-left: 50px;
+}
+.haadertitle{
+    font-size: 70px!important;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 40px;
+
+}
+.tweentlyTweeenty{
+    color: #FFC03B!important;
+}
+.disheader{
+    color: #eaeaea;
+    font-size: 23px;
+    padding-top: 20px;
+    font-weight: 600;
+}
+.dateweprer{
+    margin-top: 20px;
+}
+.dateweprer>h3{
+    color: #fff;
+    font-size: 40px;
+    font-weight: 600;
+}
+.datadis{
+    color: #eaeaea;
+    font-size: 23px;
+    padding-top: 10px;
+    font-weight: 600;
+}
+.sliderbtn{
+    font-size: 20px;
+    color: black;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background: #FFC03B;
+    border: none;
+    transition: .70s;
+}
+.navber{
+    padding-top: 20px;
+    color: #fff;
+    font-weight: bold;
+}
+.navgroup{
+    list-style: none;
+    display: flex;
+}
+.navgroup>li{
+    padding-right: 20px;
+}
+.btnandnav{
+    display: flex;
+    align-items: center;
+    padding-bottom: 15px;
+}
+.navgroup>li:hover{
+    color: #FFC03B;
+}
+.fa-bars{
+    font-size: 30px;
+    cursor: pointer;
+}
+.sliderbtn:hover{
+    background: #ddd;
+    color: black;
+}
+
+
+.mobonav{
+    display:none;
+    position:absolute;
+    width: 100%;
+    height: 90%;
+    background: #241eb6;
+    z-index: 3;
+    top: 80px;
+}
+
+.active{
+    display: block;
+}
+
+@media (max-width:1024px) {
+    .navber{
+        display: none;
+    }
+    .shap{
+        transform: translateX(0px);
+        border-right: none;
+        border-left: none;
+    }
+    .bersnabder{
+        display: block;
+    }
+    .navgroup{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        grid-gap: 20px;
+        color: #fff;
+        margin-top: 50px;
+        padding: 50px 0px;
+    }
+    .navgroup>li{
+        font-size: 26px;
+    }
+}
+
