@@ -161,5 +161,48 @@
     .navgroup>li{
         font-size: 26px;
     }
+
+
+   
 }
 
+
+
+
+@media (max-width:768px) {
+    .haadertitle{
+        font-size: 40px!important;
+    }
+    .disheader{
+        font-size: 13px!important;
+    }
+    .dateweprer>h3{
+        font-size:25px!important;
+    }
+    .datadis{
+        font-size: 13px!important;
+    }
+
+    .sliderbtn{
+        padding: 7px 15px;
+        font-size: 15px;
+    }
+    .logo{
+        width:100px;
+    }
+    .header{
+        margin: 0px 20px;
+    }
+    .body{
+        margin: 0px 20px;
+    }
+    .shap{
+        width: 100%;
+    }
+    .main{
+        width: 100%!important;
+    }
+    .mianWrper{
+        width: 100%;
+    }
+} 
